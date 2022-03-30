@@ -1,6 +1,6 @@
 ## RandomCreator
-0.1초 주기로 Random 한 정수를 생성하여 Local DB 에 Insert 합니다.
-<br><br><img src="https://user-images.githubusercontent.com/97152402/160879113-8e2f99b7-73b1-4c0e-95bf-a5e9b086a3c3.png" width="500" height="500">
+0.1초 주기로 Random한 정수를 생성하여 Local DB에 Insert 합니다.
+<br><br><img src="https://user-images.githubusercontent.com/97152402/160879113-8e2f99b7-73b1-4c0e-95bf-a5e9b086a3c3.png" width="400" height="400">
 
 ### Environment
 - JDK 11

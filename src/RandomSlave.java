@@ -52,7 +52,7 @@ public class RandomSlave {
      * @return con
      */
     public static Connection dbConnect(String ip) {
-        String jdbcUrl = "jdbc:oracle:thin:@" + ip + ":1521:xe";
+        String jdbcUrl = "jdbc:oracle:thin:@localhost:1521:xe";
         String id = "system";
         String password = "admin";
 

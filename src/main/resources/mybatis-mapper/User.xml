@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.osc.user.mapper.UserMapper">
+
+    <select id="getUser" parameterType="String" resultType="UserVO">
+        SELECT
+            login_id
+            ,user_name
+            ,user_address
+            ,user_phone
+        FROM user_info
+        WHERE login_id = #{loginId}
+    </select>
+
+    <insert id="insertUser" parameterType="UserVO">
+        INSERT INTO user_info
+        (
+            login_id
+            ,user_name
+            ,user_address
+            ,user_phone
+        )
+        VALUES
+        (
+            #{loginId}
+            ,#{userName}
+            ,#{userAddress}
+            ,#{userPhone}
+        )
+    </insert>
+
+    <update id="updateUser" parameterType="UserVO">
+        UPDATE user_info
+        SET user_name = #{userName}
+            ,user_address = #{userAddress}
+            ,user_phone = #{userPhone}
+        WHERE login_id = #{loginId}
+    </update>
+
+    <delete id="deleteUser" parameterType="String">
+        DELETE FROM user_info
+        WHERE login_id = #{loginId}
+    </delete>
+
+</mapper>

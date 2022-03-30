@@ -18,11 +18,21 @@ CREATE TABLE random_slave(
 );
 ```
 
+### DB Setting (in source)
+```
+public static Connection dbConnect() {
+    String jdbcUrl = "jdbc:oracle:thin:@[ipAdress]:[port]:[name]";
+    String id = "[userId]";
+    String password = "[userPassword]";
+    .
+    .
+}
+```
+
 ### Build
 [IntelliJ] **Build** > **Build Artifacts...** > **Build**
 
 ### Test
 1. ~\RandomSlave\out\artifacts\RandomSlave_jar 로 이동
 2. **java -jar RandomSlave.jar [SeverIPAddress]** 실행
-3. 실행 결과
 <br><br><img src="https://user-images.githubusercontent.com/97152402/160886752-e4296956-fdce-4ce4-ad78-7840a03e6adf.png" width="450" height="500"> <img src="https://user-images.githubusercontent.com/97152402/160887069-a562c1ed-b84b-42ff-96cc-78e01becfddb.png" width="450" height="500">

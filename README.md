@@ -18,6 +18,17 @@ CREATE TABLE random_master(
 );
 ```
 
+### DB Setting (in source)
+```
+public static Connection dbConnect() {
+    String jdbcUrl = "jdbc:oracle:thin:@[ipAdress]:[port]:[name]";
+    String id = "[userId]";
+    String password = "[userPassword]";
+    .
+    .
+}
+```
+
 ### Build
 [IntelliJ] **Build** > **Build Artifacts...** > **Build**
 

@@ -1,4 +1,4 @@
-## Random
+## RandomSlave
 <a href="https://github.com/eb-silverstar/RandomMaster">RandomMaster</a>로부터 데이터를 전송 받아 새로운 DB에 Insert 합니다.
 <br><br><img src="https://user-images.githubusercontent.com/97152402/160886182-62037a99-18f0-4518-88c1-8bf5a526186d.png" width="900" height="350">
 

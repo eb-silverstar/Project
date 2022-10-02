@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RandomMaster:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RandomMaster_jar</output-path>
+    <root id="archive" name="RandomMaster.jar">
+      <element id="module-output" name="RandomMaster" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/ojdbc8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,451 @@
+{
+	"info": {
+		"_postman_id": "8165e1b7-0fc4-4023-a825-3ffba3971ac2",
+		"name": "Keyescape",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "0. Get Time Number",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "zizum_num",
+							"value": "16",
+							"type": "text"
+						},
+						{
+							"key": "rev_days",
+							"value": "2022-04-13",
+							"type": "text"
+						},
+						{
+							"key": "theme_num",
+							"value": "56",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://keyescape.co.kr/web/rev.theme_time.php",
+					"protocol": "https",
+					"host": [
+						"keyescape",
+						"co",
+						"kr"
+					],
+					"path": [
+						"web",
+						"rev.theme_time.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1. Get Reservation Number",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "노은별",
+							"type": "text"
+						},
+						{
+							"key": "mobile1",
+							"value": "010",
+							"type": "text"
+						},
+						{
+							"key": "mobile2",
+							"value": "9029",
+							"type": "text"
+						},
+						{
+							"key": "mobile3",
+							"value": "9824",
+							"type": "text"
+						},
+						{
+							"key": "person",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "memo",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "str_spam",
+							"value": "jvl90",
+							"type": "text"
+						},
+						{
+							"key": "logged_str_spam",
+							"value": "jvl90",
+							"type": "text"
+						},
+						{
+							"key": "ck_agree",
+							"value": "on",
+							"type": "text"
+						},
+						{
+							"key": "rev_days",
+							"value": "2022-04-13",
+							"type": "text"
+						},
+						{
+							"key": "theme_time_num",
+							"value": "1735",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "87000",
+							"type": "text"
+						},
+						{
+							"key": "price1",
+							"value": "87000",
+							"type": "text"
+						},
+						{
+							"key": "price2",
+							"value": "87000",
+							"type": "text"
+						},
+						{
+							"key": "price3",
+							"value": "87000",
+							"type": "text"
+						},
+						{
+							"key": "price4",
+							"value": "116000",
+							"type": "text"
+						},
+						{
+							"key": "price5",
+							"value": "145000",
+							"type": "text"
+						},
+						{
+							"key": "price6",
+							"value": "174000",
+							"type": "text"
+						},
+						{
+							"key": "act",
+							"value": "make",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://keyescape.co.kr/web/rev.act.php",
+					"protocol": "https",
+					"host": [
+						"keyescape",
+						"co",
+						"kr"
+					],
+					"path": [
+						"web",
+						"rev.act.php"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "%EB%85%B8%EC%9D%80%EB%B3%84",
+							"disabled": true
+						},
+						{
+							"key": "mobile1",
+							"value": "010",
+							"disabled": true
+						},
+						{
+							"key": "mobile2",
+							"value": "9029",
+							"disabled": true
+						},
+						{
+							"key": "mobile3",
+							"value": "9824",
+							"disabled": true
+						},
+						{
+							"key": "person",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "memo",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "str_spam",
+							"value": "trlin",
+							"disabled": true
+						},
+						{
+							"key": "logged_str_spam",
+							"value": "trlin",
+							"disabled": true
+						},
+						{
+							"key": "ck_agree",
+							"value": "on",
+							"disabled": true
+						},
+						{
+							"key": "rev_days",
+							"value": "2022-01-16",
+							"disabled": true
+						},
+						{
+							"key": "theme_time_num",
+							"value": "1711",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "52000",
+							"disabled": true
+						},
+						{
+							"key": "act",
+							"value": "make",
+							"disabled": true
+						},
+						{
+							"key": "price1",
+							"value": "40000",
+							"disabled": true
+						},
+						{
+							"key": "price2",
+							"value": "46000",
+							"disabled": true
+						},
+						{
+							"key": "price3",
+							"value": "66000",
+							"disabled": true
+						},
+						{
+							"key": "price4",
+							"value": "88000",
+							"disabled": true
+						},
+						{
+							"key": "price5",
+							"value": "110000",
+							"disabled": true
+						},
+						{
+							"key": "price6",
+							"value": "132000",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Get CK Code",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://keyescape.co.kr/web/home.php?go=rev.kcp&num=237155",
+					"protocol": "https",
+					"host": [
+						"keyescape",
+						"co",
+						"kr"
+					],
+					"path": [
+						"web",
+						"home.php"
+					],
+					"query": [
+						{
+							"key": "go",
+							"value": "rev.kcp"
+						},
+						{
+							"key": "num",
+							"value": "237155"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Send Message",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://keyescape.co.kr/web/rev.make_mutong.php?payment=D&num=237155&ck_code=90064&go=rev.kcp",
+					"protocol": "https",
+					"host": [
+						"keyescape",
+						"co",
+						"kr"
+					],
+					"path": [
+						"web",
+						"rev.make_mutong.php"
+					],
+					"query": [
+						{
+							"key": "payment",
+							"value": "D"
+						},
+						{
+							"key": "num",
+							"value": "237155"
+						},
+						{
+							"key": "ck_code",
+							"value": "90064"
+						},
+						{
+							"key": "go",
+							"value": "rev.kcp"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Show Confirm Page",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://keyescape.co.kr/web/home.php?go=rev.end&num=237155&ck_code=90064",
+					"protocol": "https",
+					"host": [
+						"keyescape",
+						"co",
+						"kr"
+					],
+					"path": [
+						"web",
+						"home.php"
+					],
+					"query": [
+						{
+							"key": "go",
+							"value": "rev.end"
+						},
+						{
+							"key": "num",
+							"value": "237155"
+						},
+						{
+							"key": "ck_code",
+							"value": "90064"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Spam Code",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://keyescape.co.kr/web/home.php?zizum_num=16&rev_days=2022-01-15&theme_num=55&theme_time_num=1696&go=rev.make2",
+					"protocol": "https",
+					"host": [
+						"keyescape",
+						"co",
+						"kr"
+					],
+					"path": [
+						"web",
+						"home.php"
+					],
+					"query": [
+						{
+							"key": "zizum_num",
+							"value": "16"
+						},
+						{
+							"key": "rev_days",
+							"value": "2022-01-15"
+						},
+						{
+							"key": "theme_num",
+							"value": "55"
+						},
+						{
+							"key": "theme_time_num",
+							"value": "1696"
+						},
+						{
+							"key": "go",
+							"value": "rev.make2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
